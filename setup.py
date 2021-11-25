@@ -33,7 +33,7 @@ setup(
     description="Victor Forever",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    url="https://youtu.be/xvFZjo5PgG0",
     author="Ward Van Driessche",
     author_email="wardvandriessche@gmail.com",
     cmdclass={
