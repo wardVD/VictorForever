@@ -16,7 +16,7 @@ class PostInstallCommand(install):
     def run(self):
         try:
             import webbrowser
-            webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            webbrowser.open("https://youtu.be/xvFZjo5PgG0")
         except:
             pass
         print("\n")
