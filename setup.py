@@ -14,22 +14,23 @@ with open(os.path.join(HERE, "README.md")) as fid:
 class PostInstallCommand(install):
     """Post-installation for installation mode."""
     def run(self):
+        install.run(self)
         try:
             import webbrowser
             webbrowser.open("https://youtu.be/xvFZjo5PgG0")
         except:
             pass
+
         print("\n")
         print("##############################################")
         print("#                VICTOR FOREVER              #")
         print("##############################################")
         print("\n")
-        install.run(self)
 
 # This call to setup() does all the work
 setup(
     name="victorforever",
-    version="1.0.0",
+    version="1.0.1",
     description="Victor Forever",
     long_description=README,
     long_description_content_type="text/markdown",
